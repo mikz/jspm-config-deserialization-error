@@ -19,6 +19,14 @@ SystemJS.config({
 
   packages: {
     "jspmtest": {},
+    "hot-reload": {
+      "main": "index.js",
+      "defaultExtension": "js",
+      "format": "esm",
+      "map": {
+        "./enabled.js": { "production": "./disabled.js" }
+      }
+    },
     "github:capaj/systemjs-hot-reloader@0.5.5": {
       "map": {
         "debug": "npm:debug@2.2.0",
