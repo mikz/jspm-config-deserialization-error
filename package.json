@@ -1,0 +1,29 @@
+{
+  "name": "jspmtest",
+  "jspm": {
+    "name": "jspmtest",
+    "dependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.2",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.5"
+    },
+    "devDependencies": {},
+    "peerDependencies": {
+      "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
+      "net": "github:jspm/nodelibs-net@^0.2.0-alpha",
+      "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
+      "tty": "github:jspm/nodelibs-tty@^0.2.0-alpha",
+      "util": "github:jspm/nodelibs-util@^0.2.0-alpha"
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.6"
+  }
+}
